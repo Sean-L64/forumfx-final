@@ -1,0 +1,40 @@
+.list-view {
+    -fx-background-color: #2f2f2f;
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #2f2f2f;
+
+}
+
+/* .list-cell:odd {
+    -fx-background-color: #e6e6e6;
+}
+
+.list-cell:even {
+    -fx-background-color: #ffffff;
+} */
+
+.list-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.list-cell:hover {
+    -fx-background-color: #85c1e9;
+}
+
+Button {
+    -fx-background: -fx-background-color;
+    -fx-background-color: #3498db;
+}
+Button:hover {
+    -fx-background: -fx-background-color;
+    -fx-background-color: #195379;
+}
+Button:selected{
+    -fx-background: -fx-background-color;
+    -fx-background-color: #000000;
+}
